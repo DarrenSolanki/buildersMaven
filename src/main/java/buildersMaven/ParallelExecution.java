@@ -7,7 +7,7 @@ public class ParallelExecution {
 	
 //	<suite name="Suite" parallel="tests" thread-count="5">
 	
-	or
+//	or
 	
 //	<test name="Personal loan" parallel="classes" thread-count="5">
 
