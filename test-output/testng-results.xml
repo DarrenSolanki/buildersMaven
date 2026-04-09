@@ -1,55 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-28T16:02:19 IST" name="Suite" finished-at="2026-03-28T16:02:19 IST" duration-ms="50">
+  <suite started-at="2026-04-02T08:51:06 IST" name="Default suite" finished-at="2026-04-02T08:51:06 IST" duration-ms="48">
     <groups>
-      <group name="logout">
-        <method signature="Test3.MobileLogout()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="MobileLogout" class="buildersMaven.Test3"/>
-        <method signature="Test3.WebLogout()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="WebLogout" class="buildersMaven.Test3"/>
-      </group> <!-- logout -->
-      <group name="smoke">
-        <method signature="Test2.m1()[pri:0, instance:buildersMaven.Test2@4550bb58]" name="m1" class="buildersMaven.Test2"/>
-        <method signature="Test2.m2()[pri:0, instance:buildersMaven.Test2@4550bb58]" name="m2" class="buildersMaven.Test2"/>
-        <method signature="Test3.MobileLogin()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="MobileLogin" class="buildersMaven.Test3"/>
-        <method signature="Test3.MobileLogout()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="MobileLogout" class="buildersMaven.Test3"/>
-        <method signature="Test3.WebLogout()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="WebLogout" class="buildersMaven.Test3"/>
-        <method signature="Test3.webLogin()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="webLogin" class="buildersMaven.Test3"/>
-      </group> <!-- smoke -->
-      <group name="login">
-        <method signature="Test3.MobileLogin()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="MobileLogin" class="buildersMaven.Test3"/>
-        <method signature="Test3.webLogin()[pri:0, instance:buildersMaven.Test3@6302bbb1]" name="webLogin" class="buildersMaven.Test3"/>
-      </group> <!-- login -->
     </groups>
-    <test started-at="2026-03-28T16:02:19 IST" name="Test3" finished-at="2026-03-28T16:02:19 IST" duration-ms="50">
-      <class name="buildersMaven.Test3">
-        <test-method signature="MobileLogin()[pri:0, instance:buildersMaven.Test3@6302bbb1]" started-at="2026-03-28T16:02:19 IST" name="MobileLogin" finished-at="2026-03-28T16:02:19 IST" duration-ms="1" status="PASS">
+    <test started-at="2026-04-02T08:51:06 IST" name="Default test" finished-at="2026-04-02T08:51:06 IST" duration-ms="48">
+      <class name="buildersMaven.PS2">
+        <test-method is-config="true" signature="beforeT()[pri:0, instance:buildersMaven.PS2@397fbdb]" started-at="2026-04-02T08:51:06 IST" name="beforeT" finished-at="2026-04-02T08:51:06 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLogin -->
-        <test-method signature="MobileLogout()[pri:0, instance:buildersMaven.Test3@6302bbb1]" started-at="2026-03-28T16:02:19 IST" name="MobileLogout" finished-at="2026-03-28T16:02:19 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeT -->
+        <test-method is-config="true" signature="beforeTes()[pri:0, instance:buildersMaven.PS2@397fbdb]" started-at="2026-04-02T08:51:06 IST" name="beforeTes" finished-at="2026-04-02T08:51:06 IST" depends-on-methods="buildersMaven.PS1.beforeT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLogout -->
-        <test-method signature="WebLogout()[pri:0, instance:buildersMaven.Test3@6302bbb1]" started-at="2026-03-28T16:02:19 IST" name="WebLogout" finished-at="2026-03-28T16:02:19 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLogout -->
-        <test-method signature="webLogin()[pri:0, instance:buildersMaven.Test3@6302bbb1]" started-at="2026-03-28T16:02:19 IST" name="webLogin" finished-at="2026-03-28T16:02:19 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLogin -->
-      </class> <!-- buildersMaven.Test3 -->
-      <class name="buildersMaven.Test2">
-        <test-method signature="m1()[pri:0, instance:buildersMaven.Test2@4550bb58]" started-at="2026-03-28T16:02:19 IST" name="m1" finished-at="2026-03-28T16:02:19 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method signature="m2()[pri:0, instance:buildersMaven.Test2@4550bb58]" started-at="2026-03-28T16:02:19 IST" name="m2" finished-at="2026-03-28T16:02:19 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeTes -->
+        <test-method signature="m2()[pri:0, instance:buildersMaven.PS2@397fbdb]" started-at="2026-04-02T08:51:06 IST" name="m2" finished-at="2026-04-02T08:51:06 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-      </class> <!-- buildersMaven.Test2 -->
-    </test> <!-- Test3 -->
-  </suite> <!-- Suite -->
+        <test-method signature="m3()[pri:0, instance:buildersMaven.PS2@397fbdb]" started-at="2026-04-02T08:51:06 IST" name="m3" finished-at="2026-04-02T08:51:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- buildersMaven.PS2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
