@@ -14,7 +14,7 @@ public class PS1 {
 	
 	@BeforeTest
 	public void beforeT() {
-		System.out.println("Before test method in PS1");
+		System.out.println("Before test() in PS1");
 	}
 
 }
